@@ -1,0 +1,7 @@
+mdvl-vifm-ext (1.0.0) stable; urgency=medium
+
+  * Package created with MDPC 2.
+    Split out from package mdvl-conf-protected, mdvl-conf-simple and
+    mdvl-scripts.
+
+ -- Linux-Fan, Ma_Sys.ma <Ma_Sys.ma@web.de>  Sun, 23 Aug 2020 23:57:41 +0200

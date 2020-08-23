@@ -1,0 +1,11 @@
+#===========================================================================
+# Ma_Sys.ma Mount Sudo Configuration 1.0.0.0, Copyright (c) 2013 Ma_Sys.ma.
+# For further info send an e-mail to Ma_Sys.ma@web.de.
+#===========================================================================
+
+# Allow linux-fan to use the ma_mount command to mount image files and removable
+# devices. This is risky when being used on servers and machines with many
+# users, but a better solution was not found yet. 07.2013.
+
+Cmnd_Alias	MAMOUNT = /usr/bin/ma_mount
+linux-fan	ALL=NOPASSWD: MAMOUNT

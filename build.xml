@@ -11,7 +11,7 @@
 <property name="mdpc.conflicts"     value="mdvl-conf-protected (&lt;= 1.0.9), mdvl-scripts (&lt;= 1.0.375)"/>
 <property name="mdpc.descrs"        value="MDVL VIFM Mount Extension"/>
 <property name="mdpc.file.install">
-mavifmext_reduced.sh /usr/share/mdvl-vifm-ext
+mavifmext_reduced.sh /usr/bin
 41-masysma-mount /etc/sudoers.d
 ma_mount /usr/bin
 </property>

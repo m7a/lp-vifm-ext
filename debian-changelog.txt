@@ -1,3 +1,9 @@
+mdvl-vifm-ext (1.0.1) stable; urgency=medium
+
+  * Move script to /usr/bin to stay executable by default.
+
+ -- Linux-Fan, Ma_Sys.ma <Ma_Sys.ma@web.de>  Mon, 24 Aug 2020 00:11:36 +0200
+
 mdvl-vifm-ext (1.0.0) stable; urgency=medium
 
   * Package created with MDPC 2.

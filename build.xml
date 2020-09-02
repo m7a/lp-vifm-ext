@@ -6,8 +6,7 @@
 <property name="mdpc.name"          value="mdvl-vifm-ext"/>
 <property name="mdpc.section"       value="utils"/>
 <property name="mdpc.arch"          value="all"/>
-<property name="mdpc.depends"       value="dialog"/>
-<property name="mdpc.recommends"    value="vifm, sudo"/>
+<property name="mdpc.recommends"    value="sudo, dialog"/>
 <property name="mdpc.conflicts"     value="mdvl-conf-protected (&lt;= 1.0.9), mdvl-scripts (&lt;= 1.0.375)"/>
 <property name="mdpc.descrs"        value="MDVL VIFM Mount Extension"/>
 <property name="mdpc.file.install">

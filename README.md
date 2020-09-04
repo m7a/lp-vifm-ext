@@ -20,14 +20,14 @@ Description
 This package provides scripts to extend the capabilities of the VIFM file
 manager (or any configurable console-based file manager) by a mounting faciltiy.
 It is intended to be used togehter with the configuration provided in package
-`mdvl-conf-cli`.
+`mdvl-conf-cli`, see [conf-cli(32)](conf-cli.xhtml).
 
 WARNING: Sudo Configuration Included
 ====================================
 
 This package includes a sudoers configuration allowing user `linux-fan` to
 run the `ma_mount` command which makes the `mount` command available to a
-user with restricted permissions.
+user. Beware that this reduces system security.
 
 Script `mavifmext_reduced.sh`
 =============================
@@ -36,7 +36,7 @@ This script creates a dialog-based selection menu of devices available for
 mounting. It filters out any device that is either in `/proc/mdstat` or already
 mounted as a safety measure against accidentally mounting a system volume.
 
-_TODO SCREENSHOT_
+![Screenshot of the mounting dialog](vifm-ext_att/scrmount.png)
 
 After obtaining the device selection from the user, the script invokes
 `ma_mount` for the actual mount process.
@@ -56,7 +56,7 @@ Due to that situation, script `ma_mount` was created to solve the issue by the
 Instead of giving users access to `mount` via sudo directly, the script has some
 additional sanity checks to avoid malicious bind mounts that could effectively
 give users root access. Note that these measures are most likely insufficient
-against a sophisticated adversary who analzes the script.
+against a sophisticated adversary who analyzes the script thoroughly.
 
 Note: The documentation here is incomplete on purpose. Users are highly
 encouraged to find an alternative solution for their needs.

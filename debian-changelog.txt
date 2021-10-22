@@ -1,3 +1,12 @@
+mdvl-vifm-ext (1.0.3) stable; urgency=medium
+
+  * Fix b5ce4428ea87402bc86ae06eb05de33f0c364525:
+    Rework logic to include device names from ZFS pools.
+    This way, fix problem where list of mountable devices was always empty on
+    systems whose only HDDs are managed by ZFS.
+
+ -- Linux-Fan, Ma_Sys.ma <Ma_Sys.ma@web.de>  Fri, 22 Oct 2021 21:20:39 +0200
+
 mdvl-vifm-ext (1.0.2) stable; urgency=medium
 
   * Attempt to enhance security of ma_mount iso mode.
